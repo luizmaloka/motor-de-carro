@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos - Motores de Carro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .video {
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        .description {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos - Motores de Carro</h1>
+
+    <div class="video">
+        <h2>Vídeo 1: Motor de Carro - Explicação Completa</h2>
+        <iframe src="https://www.youtube.com/embed/lDJaDxm-dv0" frameborder="0" allowfullscreen></iframe>
+        <p class="description">Este vídeo oferece uma explicação detalhada sobre o funcionamento do motor de carro.</p>
+    </div>
+
+    <div class="video">
+        <h2>Vídeo 2: Entendendo o Motor de Carro</h2>
+        <iframe src="https://www.youtube.com/embed/GbnGsWxyL9c" frameborder="0" allowfullscreen></iframe>
+        <p class="description">Neste vídeo, você vai entender melhor os componentes e o funcionamento dos motores de carros.</p>
+    </div>
+
+</body>
+</html>
